@@ -22,10 +22,6 @@ To run this project you need:
 - [Expo CLI](https://docs.expo.dev/get-started/installation/)  
 - [Expo Go App](https://expo.dev/client) (on your phone, Android/iOS)  
 
-Install Expo CLI globally:  
-```bash
-npm install -g expo-cli
-```
 ## 📥 Installation 
 
 1.- Clone the repository
@@ -39,7 +35,7 @@ npm install
 ## ⚙️ Running
 To start the development server:
 ```bash
-expo start
+npx expo start --clear
 ```
 Scan the QR code using the Expo Go app on your phone to preview it live.
 
@@ -47,15 +43,15 @@ Scan the QR code using the Expo Go app on your phone to preview it live.
 
 **Design in Figma**
 
-![alt text](<diseño figma.png>)
+![image](https://github.com/user-attachments/assets/ef4790cd-cd56-4ee6-b6d0-ed7494aff5e0)
 
 **Compiling the code**
 
-![alt text](cli.png)
+![image](https://github.com/user-attachments/assets/24577ea6-1d84-4c2d-b673-674eaba62f9f)
 
 **Interface designed at Expo Go**
 
-![alt text](<Imagen de WhatsApp 2025-06-02 a las 22.17.59_aa7c9fe6.jpg>)
+
 
 
 ## 🤝 Contributing

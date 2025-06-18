@@ -1,21 +1,20 @@
 import React from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { ScrollView, StyleSheet, View } from 'react-native';
-import { Header } from './src/components/Header';
-import { SearchBar } from './src/components/SearchBar';
-import { JobStats } from './src/components/JobStats';
-import { RecentJobs } from './src/components/RecentJobs';
+import { MainHeader } from './src/components/MainHeader';
+import { NewsHero } from './src/components/NewsHero';
+import { NextClass } from './src/components/NextClass';
+import { InfoBoard } from './src/components/InfoBoard';
 import { BottomNav } from './src/components/BottomNav';
 
 export default function App() {
   return (
     <SafeAreaProvider>
       <View style={styles.container}>
-        <Header />
-        <ScrollView style={styles.content}>
-          <SearchBar />
-          <JobStats />
-          <RecentJobs />
+        <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
+          <NewsHero />
+          <NextClass />
+          <InfoBoard />
         </ScrollView>
         <BottomNav />
       </View>
@@ -26,7 +25,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#F5F5F5',
   },
   content: {
     flex: 1,
