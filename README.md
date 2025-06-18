@@ -51,7 +51,7 @@ Scan the QR code using the Expo Go app on your phone to preview it live.
 
 **Interface designed at Expo Go**
 
-
+https://drive.google.com/file/d/10xBLr8oLbBvkFUfjjXyWKOnRLT4KsxPP/view?usp=sharing
 
 
 ## 🤝 Contributing
